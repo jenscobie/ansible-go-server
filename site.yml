@@ -7,13 +7,16 @@
       with_items:
         - libselinux-python
         - unzip
+        - wget
 
   vars:
-    java_packages:
-      - java-1.8.0-openjdk
+#    java_packages:
+#      - java-1.8.0-openjdk
+    GOCD_ADMIN_EMAIL: jenscobie@gmail.com
 
   roles:
-    - geerlingguy.java
+    - { role: tpbrown.gocd, tags: [ 'server' ] }
+#    - geerlingguy.java
 
   tasks:
       - { include: tasks/main.yml }
