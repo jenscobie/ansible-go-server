@@ -12,6 +12,7 @@
   vars:
 #    java_packages:
 #      - java-1.8.0-openjdk
+    GOCD_GO_VERSION: 15.2.0-2248
     GOCD_ADMIN_EMAIL: jenscobie@gmail.com
 
   roles:
