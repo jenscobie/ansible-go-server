@@ -1,6 +1,6 @@
 # Ansible Role Generator
 
-> Generate [Ansible](http://www.ansible.com/home) Role with all the boilerplate code
+> Generate an [Ansible](http://www.ansible.com/home) role with all the boilerplate code
 
 ## Requirements
 
